@@ -9,6 +9,6 @@ PROXYIP = "cdn.xn--b6gac.eu.org"
 
 [[kv_namespaces]]
 binding = "bpb"
-name = "name"
+id = "name"
 
 
