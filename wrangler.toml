@@ -1,9 +1,7 @@
 name = "my-pages-site"
-pages_build_output_dir = "."
+pages_build_output_dir = "./"
 
-[[kv_namespaces]]
-binding = "KV"
-id = "<NAMESPACE_ID>"
+
 
 [vars]
 API_KEY = "1234567asdf"
