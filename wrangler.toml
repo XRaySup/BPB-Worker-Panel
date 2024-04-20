@@ -1,8 +1,6 @@
 name = "my-pages-site"
 pages_build_output_dir = ""
 
-[site]
-bucket = "./build"  # Specify the directory to deploy
 
 [build]
 # Command to build your project
