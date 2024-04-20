@@ -1,3 +1,15 @@
 name = "my-pages-site"
 pages_build_output_dir = ""
 
+[site]
+bucket = "./build"  # Specify the directory to deploy
+
+[build]
+# Command to build your project
+command = "npm run build"
+
+# Files to include in deployment
+[build.upload]
+include = [
+  "_worker.js"        # Include only _worker.js file
+]
