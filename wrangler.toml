@@ -1,4 +1,4 @@
-name = "1bpb"
+name = "your-project-name"
 type = "javascript"
 account_id = "your-account-id"
 workers_dev = false
@@ -12,8 +12,11 @@ bucket = "./build"  # Specify the directory to deploy
 # Command to build your project
 command = "npm run build"
 
-# Only include _worker.js for deployment
+# Files to include in deployment
 [build.upload]
 include = [
   "_worker.js"        # Include only _worker.js file
 ]
+
+# Specifies the directory where the built files are located
+pages_build_output_dir = "build"
