@@ -4,4 +4,5 @@ pages_build_output_dir = "./"
 
 
 [vars]
-API_KEY = "1234567asdf"
+UUID = "5f329883-9169-44f2-b486-563bd4b06fea"
+PROXYIP = "cdn.xn--b6gac.eu.org"
