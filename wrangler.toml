@@ -9,5 +9,5 @@ PROXYIP = "cdn.xn--b6gac.eu.org"
 
 [[kv_namespaces]]
 binding = "bpb"
-name = "56d5e3380233485ea623b85c4c2025ef"
+id = "56d5e3380233485ea623b85c4c2025ef"
 
