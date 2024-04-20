@@ -1,8 +1,13 @@
 name = "my-pages-site"
-pages_build_output_dir = "./"
+pages_build_output_dir = "./docs"
 
 
 
 [vars]
 UUID = "5f329883-9169-44f2-b486-563bd4b06fea"
 PROXYIP = "cdn.xn--b6gac.eu.org"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "<NAMESPACE_ID>"
+
