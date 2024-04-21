@@ -3,11 +3,3 @@ pages_build_output_dir = "./dist"
 
 
 
-[vars]
-UUID = "5f329883-9169-44f2-b486-563bd4b06fea"
-PROXYIP = "cdn.xn--b6gac.eu.org"
-
-[[kv_namespaces]]
-binding = "bpb"
-id = "56d5e3380233485ea623b85c4c2025ef"
-
